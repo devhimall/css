@@ -379,8 +379,11 @@
       align-items: center;
       justify-content: center;
       gap: 100px;
-      padding: 50px 0px;
       position: relative;
+      border: 1px solid grey;
+      width: fit-content;
+      padding: 40px 40px;
+      border-radius: 10px;
 
       .icons:hover {
         .warning-tooltip,
@@ -428,7 +431,7 @@
       .background-image {
         height: 24px;
         width: 24px;
-        background-image: url("/Day1/CSS/assets/icons/animal.png");
+        background-image: url("../assets/icons/animal.png");
         background-size: contain;
         background-repeat: no-repeat;
 
